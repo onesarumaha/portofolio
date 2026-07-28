@@ -74,10 +74,10 @@
   
   <script
     defer
-    src="<?= base_url('assets/template')?>https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
+    src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
   ></script>
 
-  <script defer src="<?= base_url('assets/template')?>https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
   
 </head>
@@ -329,7 +329,7 @@
 
       <div><div
   class="relative bg-cover bg-center bg-no-repeat py-8"
-  style="background-image: url(/assets/img/bg-hero.jpg)"
+  style="background-image: url(<?= base_url('assets/template/assets/img/bg-hero.jpg') ?>"
 >
   <div
     class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
@@ -948,7 +948,7 @@
 
 <div
   class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
-  style="background-image: url(/assets/img/experience-figure.png)"
+  style="background-image: url(<?= base_url('assets/template/assets/img/experience-figure.png')?>"
   id="statistics"
 >
   <div class="container">
@@ -1065,7 +1065,7 @@
     >
       <a href="/post" class="shadow">
         <div
-          style="background-image: url(/assets/img/post-01.png)"
+          style="background-image: url(<?= base_url('assets/template/assets/img/post-01.png') ?>"
           class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
         >
           <span
@@ -1088,7 +1088,7 @@
       </a>
       <a href="/post" class="shadow">
         <div
-          style="background-image: url(/assets/img/post-02.png)"
+          style="background-image: url(<?= base_url('assets/template/assets/img/post-02.png') ?>"
           class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
         >
           <span
@@ -1111,7 +1111,7 @@
       </a>
       <a href="/post" class="shadow">
         <div
-          style="background-image: url(/assets/img/post-03.png)"
+          style="background-image: url(<?= base_url('assets/template/assets/img/post-03.png') ?>"
           class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72"
         >
           <span
@@ -1229,12 +1229,12 @@
 
 <div
   class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-  style="background-image: url(/assets/img/map.png)"
+  style="background-image: url('<?= base_url('assets/template/assets/img/map.png') ?>')"
 ></div>
 
 <div
   class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
-  style="background-image: url(/assets/img/bg-cta.jpg)"
+  style="background-image: url(<?= base_url('assets/template/assets/img/bg-cta.jpg') ?>)"
 >
   <div class="container relative z-30">
     <h3
@@ -1289,7 +1289,7 @@
 
     </div>
 
-    <script src="<?= base_url('assets/template')?><?= base_url('assets/template/assets/js/main.js') ?>"></script>
+    <script src="<?= base_url('assets/template/assets/js/main.js') ?>"></script>
 
     
   </body>
