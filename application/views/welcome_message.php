@@ -10,7 +10,7 @@
     name="viewport"
   />
 
-  <title>Homepage | Atom Template</title>
+  <title>One sarumaha | Portofolio</title>
 
   <meta property="og:title" content="Homepage | Atom Template" />
 
@@ -404,21 +404,36 @@
       <h2
         class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
       >
-        Who am I?
+       Profil Singkat
       </h2>
       <h4
         class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
       >
-        I'm Christy Smith, a Web Designer & Photographer
+        One Three Jaya Putra Sarumaha <br>
+        <span class="text-primary">Backend Web Developer</span>
       </h4>
+
       <p class="pt-6 font-body leading-relaxed text-grey-20">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Saya adalah seorang <strong>Backend Web Developer</strong> yang memiliki minat
+        dalam pengembangan aplikasi web yang aman, efisien, dan mudah dikembangkan.
+        Berpengalaman menggunakan <strong>PHP, CodeIgniter, Laravel, MySQL/MariaDB</strong>,
+        serta melakukan deployment aplikasi pada server <strong>Linux (Ubuntu)</strong>
+        dengan <strong>Nginx</strong>.
+      </p>
+
+      <p class="pt-4 font-body leading-relaxed text-grey-20">
+        Saya telah mengembangkan berbagai sistem berbasis web, seperti
+        <strong>Sistem Informasi Kepegawaian</strong>, <strong>Manajemen Cuti</strong>,
+        <strong>Delegasi Pegawai</strong>, dan <strong>Dashboard Pendapatan Pegawai</strong>.
+        Saya percaya bahwa solusi digital yang baik tidak hanya memiliki tampilan yang
+        menarik, tetapi juga didukung oleh backend yang stabil, cepat, dan mudah
+        dipelihara.
+      </p>
+
+      <p class="pt-4 font-body leading-relaxed text-grey-20">
+        Saat ini saya terus mengembangkan kemampuan di bidang backend development,
+        REST API, optimasi database, serta mempelajari teknologi modern seperti
+        React untuk membangun aplikasi web yang lebih lengkap dan berkualitas.
       </p>
       <div
         class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start"
