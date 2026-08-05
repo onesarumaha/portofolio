@@ -39,8 +39,10 @@
 
 <meta property="og:url" content="https://onesarumaha.my.id/" />
 
-<meta property="og:image" content="<?= base_url('assets/profile/one.png'); ?>">
-
+<meta property="og:image" content="https://onesarumaha.my.id/assets/profile/one.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
 <meta property="og:locale" content="id_ID" />
 
 <link rel="canonical" href="https://onesarumaha.my.id/" />
@@ -50,7 +52,6 @@
 
   <meta property="og:site_name" content="Atom Template" />
 
-  <meta property="og:image" content="<?= base_url('assets/profile/one.png'); ?>">
 
   <meta name="twitter:card" content="summary_large_image" />
 
