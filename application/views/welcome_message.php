@@ -341,7 +341,7 @@
     <div class="flex flex-col items-center justify-center lg:flex-row">
       <div class="rounded-full border-8 border-primary shadow-xl">
         <img
-          src="<?= base_url('assets/template')?>/assets/img/blog-author.jpg"
+          src="<?= base_url('assets/profile')?>/one.png"
           class="h-48 rounded-full sm:h-56"
           alt="author"
         />
@@ -350,7 +350,7 @@
         <h1
           class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl"
         >
-          Hello I'm Christy Smith!
+          One Sarumaha
         </h1>
         <div
           class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start"
@@ -358,7 +358,7 @@
           <div
             class="flex items-center justify-center pl-0 sm:justify-start md:pl-1"
           >
-            <p class="font-body text-lg uppercase text-white">Let's connect</p>
+            <p class="font-body text-lg uppercase text-white">Kontak saya</p>
             <div class="hidden sm:block">
               <i class="bx bx-chevron-right text-3xl text-yellow"></i>
             </div>
