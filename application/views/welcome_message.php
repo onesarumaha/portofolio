@@ -39,7 +39,7 @@
 
 <meta property="og:url" content="https://onesarumaha.my.id/" />
 
-<meta property="og:image" content="<?= base_url('assets/profile.one.png'); ?>">
+<meta property="og:image" content="<?= base_url('assets/profile/one.png'); ?>">
 
 <meta property="og:locale" content="id_ID" />
 
