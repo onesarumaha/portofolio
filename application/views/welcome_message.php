@@ -31,7 +31,7 @@
     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   />
 
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+  <link rel="icon" type="image/png" href="<?= base_url('assets/profile')?>/icon-one.png">
 
   <meta name="theme-color" content="#5540af" />
 
@@ -106,7 +106,7 @@
   <div class="container flex items-center justify-between">
     <div>
       <a href="/">
-        <img src="<?= base_url('assets/template')?>/assets/img/logo.svg" class="w-24 lg:w-48" alt="logo image" />
+        <img src="<?= base_url('assets/profile')?>/icon-one.png" class="w-24 lg:w-48" alt="logo image" />
       </a>
     </div>
     <div class="hidden lg:block">
