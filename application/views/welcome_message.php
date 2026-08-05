@@ -19,7 +19,7 @@
 
 <meta
   name="keywords"
-  content="One Sarumaha, Portofolio, Web Developer, Laravel, PHP, JavaScript, MySQL, UI UX, Full Stack Developer"
+  content="One Sarumaha, Portofolio, Web Developer, Laravel, PHP, JavaScript, MySQL, Full Stack Developer"
 />
 
 <meta name="author" content="One Sarumaha" />
@@ -32,7 +32,7 @@
 
 <meta
   property="og:description"
-  content="Lihat proyek, pengalaman, dan keahlian One Sarumaha dalam pengembangan website dan aplikasi modern."
+  content="Portofolio One Sarumaha, Web Developer yang berpengalaman dalam membangun website dan aplikasi modern, responsif, cepat, dan mudah digunakan. Jelajahi proyek, pengalaman, serta teknologi yang saya kuasai."
 />
 
 <meta property="og:type" content="website" />
@@ -50,7 +50,7 @@
 
   <meta property="og:site_name" content="Atom Template" />
 
-  <meta property="og:image" content="//assets/img/social.jpg" />
+  <meta property="og:image" content="<?= base_url('assets/profile/one.png'); ?>">
 
   <meta name="twitter:card" content="summary_large_image" />
 
