@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8" />
+<meta charset="utf-8" />
 
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <meta
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    name="viewport"
-  />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
 
-  <title>One sarumaha | Portofolio</title>
+<title>One Sarumaha | Web Developer & UI/UX Designer</title>
 
-  <meta property="og:title" content="Homepage | Atom Template" />
+<meta
+  name="description"
+  content="Portofolio One Sarumaha, Web Developer yang berfokus pada pembuatan website modern, responsif, dan aplikasi berbasis Laravel, PHP, JavaScript, dan MySQL."
+/>
 
-  <meta property="og:locale" content="en_US" />
+<meta
+  name="keywords"
+  content="One Sarumaha, Portofolio, Web Developer, Laravel, PHP, JavaScript, MySQL, UI UX, Full Stack Developer"
+/>
 
-  <link
-    rel="canonical"
-    href="//"
-  />
+<meta name="author" content="One Sarumaha" />
 
-  <meta
-    property="og:url"
-    content="//"
-  />
+<!-- Open Graph -->
+<meta
+  property="og:title"
+  content="One Sarumaha | Web Developer & Portofolio"
+/>
 
-  <meta
-    name="description"
-    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  />
+<meta
+  property="og:description"
+  content="Lihat proyek, pengalaman, dan keahlian One Sarumaha dalam pengembangan website dan aplikasi modern."
+/>
 
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="https://onesarumaha.my.id/" />
+
+<meta property="og:image" content="<?= base_url('assets/profile.one.png'); ?>">
+
+<meta property="og:locale" content="id_ID" />
+
+<link rel="canonical" href="https://onesarumaha.my.id/" />
   <link rel="icon" type="image/png" href="<?= base_url('assets/profile')?>/icon-one.png">
 
   <meta name="theme-color" content="#5540af" />
