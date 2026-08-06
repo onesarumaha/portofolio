@@ -46,7 +46,7 @@
 <meta property="og:locale" content="id_ID" />
 
 <link rel="canonical" href="https://onesarumaha.my.id/" />
-  <link rel="icon" type="image/png" href="<?= base_url('assets/profile')?>/icon-one.png">
+  <link rel="icon" type="image/png" href="<?= base_url('assets/profile')?>/logo-one.png">
 
   <meta name="theme-color" content="#5540af" />
 
@@ -56,6 +56,35 @@
   <meta name="twitter:card" content="summary_large_image" />
 
   <meta name="twitter:site" content="@tailwindmade" />
+	<style>
+		.experience-list {
+			list-style-type: disc;
+			padding-left: 24px;
+		}
+
+		.experience-list-number {
+			list-style-type: decimal;
+			padding-left: 24px;
+		}
+		.swal2-confirm {
+			background-color: #2563eb !important;
+			color: #fff !important;
+			border: none !important;
+			border-radius: 6px !important;
+			padding: 10px 24px !important;
+			font-size: 14px !important;
+			font-weight: 600 !important;
+			box-shadow: none !important;
+		}
+
+		.swal2-confirm:hover {
+			background-color: #1d4ed8 !important;
+		}
+
+		.swal2-confirm:focus {
+			box-shadow: none !important;
+		}
+	</style>
 
   <link
     crossorigin="crossorigin"
@@ -119,8 +148,8 @@
   ">
   <div class="container flex items-center justify-between">
     <div>
-      <a href="/">
-        <img src="<?= base_url('assets/profile')?>/icon-one.png" class="w-24 lg:w-48" alt="logo image" />
+      <a href="<?= base_url('/')?>">
+        <img src="<?= base_url('assets/profile')?>/logo-one.png" class="w-24 lg:w-48" alt="logo image" />
       </a>
     </div>
     <div class="hidden lg:block">
@@ -454,7 +483,7 @@
       >
         <div class="flex items-center justify-center sm:justify-start">
           <p class="font-body text-lg font-semibold uppercase text-grey-20">
-            Connect with me
+           Hubungi saya
           </p>
           <div class="hidden sm:block">
             <i class="bx bx-chevron-right text-2xl text-primary"></i>
@@ -536,33 +565,34 @@
   </div>
 </div>
 
-<div class="container py-16 md:py-20" id="services">
+<div class="container py-16 md:py-20" id="portfolio">
   <h2
     class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
   >
-    Here's what I'm good at
+    Keahlian Saya
   </h2>
   <h3
     class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
   >
-    These are the services Ioffer
+    Layanan yang saya tawarkan
   </h3>
 
   <div
     class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3"
   >
+    <!-- Item 1 -->
     <div class="group rounded px-8 py-12 shadow hover:bg-primary">
       <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
         <div class="hidden group-hover:block">
           <img
             src="<?= base_url('assets/template')?>/assets/img/icon-development-white.svg"
-            alt="development icon"
+            alt="Pengembangan Web"
           />
         </div>
         <div class="block group-hover:hidden">
           <img
             src="<?= base_url('assets/template')?>/assets/img/icon-development-black.svg"
-            alt="development icon"
+            alt="Pengembangan Web"
           />
         </div>
       </div>
@@ -570,25 +600,27 @@
         <h3
           class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
         >
-          WEB DEVELOPMENT
+          Pengembangan Web
         </h3>
         <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Membangun aplikasi web dan sistem informasi yang responsif, cepat, serta aman.
         </p>
       </div>
     </div>
+
+    <!-- Item 2 -->
     <div class="group rounded px-8 py-12 shadow hover:bg-primary">
       <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
         <div class="hidden group-hover:block">
           <img
             src="<?= base_url('assets/template')?>/assets/img/icon-content-white.svg"
-            alt="content marketing icon"
+            alt="Dokumentasi Teknis"
           />
         </div>
         <div class="block group-hover:hidden">
           <img
             src="<?= base_url('assets/template')?>/assets/img/icon-content-black.svg"
-            alt="content marketing icon"
+            alt="Dokumentasi Teknis"
           />
         </div>
       </div>
@@ -596,51 +628,27 @@
         <h3
           class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
         >
-          Technical Writing
+          Dokumentasi Teknis
         </h3>
         <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Menyusun panduan sistem, dokumentasi API, dan standar operasional secara sistematis.
         </p>
       </div>
     </div>
-    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-      <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-        <div class="hidden group-hover:block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/icon-mobile-white.svg"
-            alt="Mobile Application icon"
-          />
-        </div>
-        <div class="block group-hover:hidden">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/icon-mobile-black.svg"
-            alt="Mobile Application icon"
-          />
-        </div>
-      </div>
-      <div class="text-center">
-        <h3
-          class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-        >
-          Mobile Development
-        </h3>
-        <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-    </div>
+
+
     <div class="group rounded px-8 py-12 shadow hover:bg-primary">
       <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
         <div class="hidden group-hover:block">
           <img
             src="<?= base_url('assets/template')?>/assets/img/icon-email-white.svg"
-            alt="Email Marketing icon"
+            alt="Sistem Integrasi"
           />
         </div>
         <div class="block group-hover:hidden">
           <img
             src="<?= base_url('assets/template')?>/assets/img/icon-email-black.svg"
-            alt="Email Marketing icon"
+            alt="Sistem Integrasi"
           />
         </div>
       </div>
@@ -648,65 +656,17 @@
         <h3
           class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
         >
-          Email Development
+          Sistem Integrasi
         </h3>
         <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Menghubungkan berbagai sistem dan API untuk efisiensi alur kerja otomatis.
         </p>
       </div>
     </div>
-    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-      <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-        <div class="hidden group-hover:block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/icon-design-white.svg"
-            alt="Theme Design icon"
-          />
-        </div>
-        <div class="block group-hover:hidden">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/icon-design-black.svg"
-            alt="Theme Design icon"
-          />
-        </div>
-      </div>
-      <div class="text-center">
-        <h3
-          class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-        >
-          Graphic Design
-        </h3>
-        <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-    </div>
-    <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-      <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-        <div class="hidden group-hover:block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/icon-graphics-white.svg"
-            alt="Graphic Design icon"
-          />
-        </div>
-        <div class="block group-hover:hidden">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/icon-graphics-black.svg"
-            alt="Graphic Design icon"
-          />
-        </div>
-      </div>
-      <div class="text-center">
-        <h3
-          class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"
-        >
-          Web Design
-        </h3>
-        <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
-      </div>
-    </div>
+
+   
+
+
   </div>
 </div>
 
@@ -714,12 +674,12 @@
   <h2
     class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
   >
-    Check out my Portfolio
+    Portofolio Saya
   </h2>
   <h3
     class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
   >
-    Here's what I have done with the past
+    Berikut adalah beberapa proyek yang telah saya selesaikan
   </h3>
 
   <div
@@ -732,7 +692,7 @@
       <img
         src="<?= base_url('assets/template')?>/assets/img/portfolio-apple.jpeg"
         class="w-full shadow"
-        alt="portfolio image"
+        alt="gambar portofolio"
       />
     </a>
     <a
@@ -742,7 +702,7 @@
       <img
         src="<?= base_url('assets/template')?>/assets/img/portfolio-stripe.jpeg"
         class="w-full shadow"
-        alt="portfolio image"
+        alt="gambar portofolio"
       />
     </a>
     <a
@@ -752,7 +712,7 @@
       <img
         src="<?= base_url('assets/template')?>/assets/img/portfolio-fedex.jpeg"
         class="w-full shadow"
-        alt="portfolio image"
+        alt="gambar portofolio"
       />
     </a>
     <a
@@ -762,74 +722,23 @@
       <img
         src="<?= base_url('assets/template')?>/assets/img/portfolio-microsoft.jpeg"
         class="w-full shadow"
-        alt="portfolio image"
+        alt="gambar portofolio"
       />
     </a>
   </div>
 </div>
 
-<div class="bg-grey-50" id="clients">
-  <div class="container py-16 md:py-20">
-    <div class="mx-auto w-full sm:w-3/4 lg:w-full">
-      <h2
-        class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
-      >
-        My latest clients
-      </h2>
-      <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
-        <span class="m-8 block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/logo-coca-cola.svg"
-            alt="client logo"
-            class="mx-auto block h-12 w-auto"
-          />
-        </span>
-        <span class="m-8 block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/logo-apple.svg"
-            alt="client logo"
-            class="mx-auto block h-12 w-auto"
-          />
-        </span>
-
-        <span class="m-8 block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/logo-netflix.svg"
-            alt="client logo"
-            class="mx-auto block h-12 w-auto"
-          />
-        </span>
-
-        <span class="m-8 block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/logo-amazon.svg"
-            alt="client logo"
-            class="mx-auto block h-12 w-auto"
-          />
-        </span>
-
-        <span class="m-8 block">
-          <img
-            src="<?= base_url('assets/template')?>/assets/img/logo-stripe.svg"
-            alt="client logo"
-            class="mx-auto block h-12 w-auto"
-          />
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="container py-16 md:py-20" id="work">
   <h2
     class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
   >
-    My work experience
+    Pengalaman Kerja
   </h2>
   <h3
     class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
   >
-    Here's what I did before freelancing
+    Berikut adalah rekam jejak karir dan pengalaman saya
   </h3>
 
   <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
@@ -840,12 +749,8 @@
     <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
       <div class="md:w-2/5">
         <div class="flex justify-center md:justify-start">
-          <span class="shrink-0">
-            <img
-              src="<?= base_url('assets/template')?>/assets/img/logo-spotify.svg"
-              class="h-auto w-32"
-              alt="company logo"
-            />
+         <span class="shrink-0 font-header text-lg font-bold tracking-wide text-black lg:text-xl">
+            Puskesmas Setiabudi Jakarta
           </span>
           <div class="relative ml-3 hidden w-full md:block">
             <span
@@ -864,17 +769,19 @@
             <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
             <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-                >Apr 2015 - Mar 2018</span
+                >Juni 2026 - sekarang</span
               >
               <span
                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >Frontend Developer</span
+                >IT Programmer</span
               >
               <div class="pt-2">
-                <span class="block font-body text-black"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                  venenatis enim.</span
+                <span class="block font-body text-black"> Bertanggung jawab mengembangkan aplikasi kepegawaian dan berbagai sistem
+					pendukung untuk kebutuhan internal instansi serta pelayanan masyarakat
+					menggunakan CodeIgniter 3. Melakukan analisis kebutuhan, pengembangan
+					modul, integrasi database MySQL, pengujian aplikasi, perbaikan bug, dan
+					maintenance sistem guna memastikan aplikasi berjalan stabil, aman, dan
+					sesuai dengan kebutuhan pengguna.</span
                 >
               </div>
             </div>
@@ -885,12 +792,8 @@
     <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
       <div class="md:w-2/5">
         <div class="flex justify-center md:justify-start">
-          <span class="shrink-0">
-            <img
-              src="<?= base_url('assets/template')?>/assets/img/logo-microsoft.svg"
-              class="h-auto w-32"
-              alt="company logo"
-            />
+          <span class="shrink-0 font-header text-lg font-bold tracking-wide text-black lg:text-xl">
+            PT. Herca Cipta Dermal Perdana
           </span>
           <div class="relative ml-3 hidden w-full md:block">
             <span
@@ -909,69 +812,121 @@
             <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
             <div class="md:-mt-1 md:pl-8">
               <span class="block font-body font-bold text-grey-40"
-                >Mar 2018 - September 2019</span
+                >Juli 2023 - Juni 2016</span
               >
               <span
                 class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >Software Engineer</span
+                >Web Developer</span
               >
-              <div class="pt-2">
-                <span class="block font-body text-black"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                  venenatis enim.</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-      <div class="md:w-2/5">
-        <div class="flex justify-center md:justify-start">
-          <span class="shrink-0">
-            <img
-              src="<?= base_url('assets/template')?>/assets/img/logo-fedex.svg"
-              class="h-auto w-32"
-              alt="company logo"
-            />
-          </span>
-          <div class="relative ml-3 hidden w-full md:block">
-            <span
-              class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"
-            ></span>
-          </div>
-        </div>
-      </div>
-      <div class="md:w-3/5">
-        <div class="relative flex md:pl-18">
-          <span
-            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
-          ></span>
+             <div class="pt-2">
+				<p class="font-body text-black">
+					Mengembangkan aplikasi Enterprise Resource Planning (ERP) dan sistem
+					absensi berbasis web menggunakan Laravel, Yii 2, MySQL, JavaScript,
+					dan Bootstrap. Bertanggung jawab dalam pengembangan fitur, integrasi
+					database, pemeliharaan sistem, serta peningkatan performa aplikasi
+					untuk mendukung operasional perusahaan.
+				</p>
 
-          <div class="mt-1 flex">
-            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-            <div class="md:-mt-1 md:pl-8">
-              <span class="block font-body font-bold text-grey-40"
-                >October 2019 - Feb 2021</span
-              >
-              <span
-                class="block pt-2 font-header text-xl font-bold uppercase text-primary"
-                >DevOps Engineer</span
-              >
-              <div class="pt-2">
-                <span class="block font-body text-black"
-                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                  venenatis enim.</span
-                >
-              </div>
+				<ol style="list-style-type: decimal; padding-left: 24px;">
+					<li>
+					Mengembangkan modul ERP meliputi manajemen invoice, customer,
+					supplier, gudang, pembelian, penjualan, dan pelaporan.
+					</li>
+					<li>
+					Membangun sistem absensi karyawan berbasis web yang terintegrasi
+					dengan perangkat Face Recognition untuk pencatatan kehadiran
+					secara real-time.
+					</li>
+					<li>
+					Mengembangkan dashboard monitoring dan laporan operasional untuk
+					mendukung pengambilan keputusan manajemen.
+					</li>
+					<li>
+					Berkolaborasi dengan tim dalam pengembangan fitur baru,
+					pemeliharaan sistem, debugging, dan optimasi performa aplikasi.
+					</li>
+				</ol>
+			</div>
             </div>
           </div>
         </div>
       </div>
     </div>
+	<div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+	<div class="md:w-2/5">
+		<div class="flex justify-center md:justify-start">
+		<span class="shrink-0 font-header text-lg font-bold tracking-wide text-black lg:text-xl">
+			PT. Natural Food Sukses Makmur
+		</span>
+		<div class="relative ml-3 hidden w-full md:block">
+			<span
+			class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"
+			></span>
+		</div>
+		</div>
+	</div>
+
+	<div class="md:w-3/5">
+		<div class="relative flex md:pl-18">
+		<span
+			class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"
+		></span>
+
+		<div class="mt-1 flex">
+			<i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+
+			<div class="md:-mt-1 md:pl-8">
+			<span class="block font-body font-bold text-grey-40">
+				Juni 2021 - Juni 2023
+			</span>
+
+			<span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+				Web Developer
+			</span>
+
+			<div class="pt-2">
+				<p class="font-body text-black">
+				Mengembangkan dan memelihara aplikasi web perusahaan menggunakan
+				PHP, MySQL, JavaScript, HTML, CSS, dan Bootstrap. Bertanggung
+				jawab dalam pengembangan fitur baru, optimalisasi performa
+				aplikasi, pengelolaan database, serta pemeliharaan sistem agar
+				berjalan stabil dan sesuai dengan kebutuhan bisnis.
+				</p>
+
+				<ul class="experience-list mt-3 space-y-2 font-body text-black">
+					<li>
+						Mengembangkan dan memelihara aplikasi web internal perusahaan.
+					</li>
+					<li>
+						Merancang, mengelola, dan mengoptimalkan database MySQL untuk
+						meningkatkan performa aplikasi.
+					</li>
+					<li>
+						Mengimplementasikan fitur baru serta melakukan perbaikan bug dan
+						peningkatan fungsionalitas aplikasi.
+					</li>
+					<li>
+						Berkolaborasi dengan tim dalam menganalisis kebutuhan pengguna
+						dan merancang solusi yang sesuai.
+					</li>
+					<li>
+						Menggunakan Git sebagai version control untuk kolaborasi dan
+						manajemen source code.
+					</li>
+				</ul>
+
+				<div class="mt-3">
+					<span class="font-semibold text-black">Tech Stack:</span>
+					<span class="text-black">
+						PHP, MySQL, JavaScript, HTML, CSS, Bootstrap, Git
+					</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
   </div>
 </div>
 
@@ -1169,50 +1124,61 @@
   <h2
     class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"
   >
-    Here's a contact form
+    Hubungi Saya
   </h2>
   <h4
     class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
   >
-    Have Any Questions?
+    Mari Berdiskusi
   </h4>
   <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
     <p class="font-body text-grey-10">
-      Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
-      condimentum turpis nisl sem, viverra habitasse urna ante lobortis
-      fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
-      accumsan.
+      	Terima kasih telah mengunjungi portfolio saya. Jika Anda memiliki
+		pertanyaan, ingin berdiskusi mengenai pengembangan aplikasi, atau
+		tertarik untuk bekerja sama, silakan hubungi saya melalui formulir di
+		bawah ini. Saya akan dengan senang hati merespons pesan Anda sesegera
+		mungkin.
     </p>
   </div>
-  <form class="mx-auto w-full pt-10 sm:w-3/4">
+<form id="contactForm" class="mx-auto w-full pt-10 sm:w-3/4">
     <div class="flex flex-col md:flex-row">
-      <input
-        class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
-        placeholder="Name"
-        type="text"
-        id="name"
-      />
-      <input
-        class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
-        placeholder="Email"
-        type="text"
-        id="email"
-      />
+        <input
+            class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
+            placeholder="Nama"
+            type="text"
+            id="name"
+            name="name"
+        />
+
+        <input
+            class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
+            placeholder="Email"
+            type="email"
+            id="email"
+            name="email"
+        />
     </div>
+
     <textarea
-      class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
-      placeholder="Message"
-      id="message"
-      cols="30"
-      rows="10"
+        class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
+        placeholder="Pesan"
+        id="message"
+        name="message"
+        cols="30"
+        rows="10"
     ></textarea>
+
     <button
-      class="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"
+        type="submit"
+        id="btnSubmit"
+        class="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20"
     >
-      Send
-      <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
+        Kirim
+        <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
     </button>
-  </form>
+</form>
+
+<div id="response" class="mt-3"></div>
   <div class="flex flex-col pt-16 lg:flex-row">
     <div
       class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3"
@@ -1220,11 +1186,11 @@
       <div class="flex items-center">
         <i class="bx bx-phone text-2xl text-grey-40"></i>
         <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-          My Phone
+          No. HP
         </p>
       </div>
       <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-        (+881) 111 222 333
+        0812-7726-0794
       </p>
     </div>
     <div
@@ -1233,11 +1199,11 @@
       <div class="flex items-center">
         <i class="bx bx-envelope text-2xl text-grey-40"></i>
         <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-          My Email
+          Email
         </p>
       </div>
       <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-        name@mydomain.com
+        onesarumaha10@gmail.com
       </p>
     </div>
     <div
@@ -1246,11 +1212,11 @@
       <div class="flex items-center">
         <i class="bx bx-map text-2xl text-grey-40"></i>
         <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-          My Address
+         Alamat
         </p>
       </div>
       <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-        123 New York D Block 1100, 2011 USA
+        Jakarta
       </p>
     </div>
   </div>
@@ -1319,7 +1285,125 @@
     </div>
 
     <script src="<?= base_url('assets/template/assets/js/main.js') ?>"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+	document.addEventListener('DOMContentLoaded', function () {
 
+		const form = document.getElementById('contactForm');
+		const btnSubmit = document.getElementById('btnSubmit');
+
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+
+			const name = document.getElementById('name').value.trim();
+			const email = document.getElementById('email').value.trim();
+			const message = document.getElementById('message').value.trim();
+
+			// Validasi Nama
+			if (name === '') {
+				Swal.fire({
+					icon: 'warning',
+					title: 'Oops...',
+					text: 'Nama tidak boleh kosong!'
+				});
+
+				document.getElementById('name').focus();
+				return;
+			}
+
+			// Validasi Email
+			if (email === '') {
+				Swal.fire({
+					icon: 'warning',
+					title: 'Oops...',
+					text: 'Email tidak boleh kosong!'
+				});
+
+				document.getElementById('email').focus();
+				return;
+			}
+
+			// Validasi Format Email
+			const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+			if (!emailPattern.test(email)) {
+				Swal.fire({
+					icon: 'warning',
+					title: 'Oops...',
+					text: 'Format email tidak valid!'
+				});
+
+				document.getElementById('email').focus();
+				return;
+			}
+
+			// Validasi Pesan
+			if (message === '') {
+				Swal.fire({
+					icon: 'warning',
+					title: 'Oops...',
+					text: 'Pesan tidak boleh kosong!'
+				});
+
+				document.getElementById('message').focus();
+				return;
+			}
+
+			// Disable Button
+			btnSubmit.disabled = true;
+			btnSubmit.innerHTML = 'Mengirim...';
+
+			fetch("<?= base_url('contact/send') ?>", {
+				method: "POST",
+				body: new FormData(form)
+			})
+			.then(response => response.json())
+			.then(res => {
+
+				if (res.status) {
+
+				Swal.fire({
+					icon: 'success',
+					title: 'Pesan Berhasil Dikirim',
+					text: 'Terima kasih telah menghubungi saya. Saya akan segera membalas pesan Anda.',
+					confirmButtonText: 'Tutup',
+					confirmButtonColor: '#2563eb'
+				});
+					form.reset();
+
+				} else {
+
+					Swal.fire({
+						icon: 'error',
+						title: 'Gagal',
+						text: res.message
+					});
+
+				}
+
+			})
+			.catch(error => {
+
+				Swal.fire({
+					icon: 'error',
+					title: 'Terjadi Kesalahan',
+					text: 'Server sedang bermasalah.'
+				});
+
+				console.error(error);
+
+			})
+			.finally(() => {
+
+				btnSubmit.disabled = false;
+				btnSubmit.innerHTML = 'Kirim <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>';
+
+			});
+
+		});
+
+	});
+	</script>
     
   </body>
 </html>
